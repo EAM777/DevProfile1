@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B9252B11F4CF036005DB4C8 /* RadiusMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9252B01F4CF036005DB4C8 /* RadiusMod.swift */; };
 		8BA4843D1F4CC70B00C87853 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4843C1F4CC70B00C87853 /* AppDelegate.swift */; };
 		8BA4843F1F4CC70B00C87853 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4843E1F4CC70B00C87853 /* ViewController.swift */; };
 		8BA484421F4CC70B00C87853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA484401F4CC70B00C87853 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B9252B01F4CF036005DB4C8 /* RadiusMod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusMod.swift; sourceTree = "<group>"; };
 		8BA484391F4CC70B00C87853 /* DevProfile1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevProfile1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA4843C1F4CC70B00C87853 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BA4843E1F4CC70B00C87853 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		8BA4843B1F4CC70B00C87853 /* DevProfile1 */ = {
 			isa = PBXGroup;
 			children = (
+				8BC10EDE1F4CEB7900CDEEDE /* View */,
 				8BA4843C1F4CC70B00C87853 /* AppDelegate.swift */,
 				8BA4843E1F4CC70B00C87853 /* ViewController.swift */,
 				8BA484401F4CC70B00C87853 /* Main.storyboard */,
@@ -94,6 +97,14 @@
 				8BA484531F4CC70C00C87853 /* Info.plist */,
 			);
 			path = DevProfile1Tests;
+			sourceTree = "<group>";
+		};
+		8BC10EDE1F4CEB7900CDEEDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B9252B01F4CF036005DB4C8 /* RadiusMod.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BA4843F1F4CC70B00C87853 /* ViewController.swift in Sources */,
+				8B9252B11F4CF036005DB4C8 /* RadiusMod.swift in Sources */,
 				8BA4843D1F4CC70B00C87853 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +434,7 @@
 				8BA484581F4CC70C00C87853 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BA484591F4CC70C00C87853 /* Build configuration list for PBXNativeTarget "DevProfile1Tests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +443,7 @@
 				8BA4845B1F4CC70C00C87853 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
